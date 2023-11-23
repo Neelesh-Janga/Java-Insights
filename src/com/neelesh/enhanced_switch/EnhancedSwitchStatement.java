@@ -52,7 +52,8 @@ public class EnhancedSwitchStatement {
         }
 
 /*
-        Enhanced switch-case statement
+    * Enhanced switch-case statement
+    * Introduced in Java 12 version under the name "switch expressions"
 */
         switch (day % 7) {
             case 1 -> System.out.println("Weekday");
